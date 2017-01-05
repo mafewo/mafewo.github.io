@@ -6,7 +6,7 @@ export default class Listado extends Component {
   render() {
     return (
       <div className="container-fluid">
-        <ul className="media-list">
+        <div className="media-list">
           {
             this.props.listado.map((listado) => {
               return <Item key={ listado.id }
@@ -15,7 +15,7 @@ export default class Listado extends Component {
                                   descripcion={ listado.descripcion } />
             })
           }
-        </ul>
+        </div>
       </div>
     )
   }
