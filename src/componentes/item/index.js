@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import {i} from 'react-materialize';
 export default class Item extends Component {
 
   render() {
