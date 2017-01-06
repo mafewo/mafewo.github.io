@@ -7,7 +7,7 @@ export default class Dashboard extends Component {
         this.state = { listado: [] }
     }
     componentWillMount() {  
-    fetch('https://api.myjson.com/bins/19xrvp')
+    fetch('https://api.myjson.com/bins/a4aij')
       .then((response) => {
         return response.json()
       })
