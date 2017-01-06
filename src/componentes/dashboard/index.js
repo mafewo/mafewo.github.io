@@ -19,9 +19,7 @@ export default class Dashboard extends Component {
     render() {
     if (this.state.listado.length > 0) {
       return (
-        <div className="container-fluid">
           <Listado listado={this.state.listado} />
-        </div>
       )
     } else {
       return <p className="text-center">Cargando imagenes...</p>

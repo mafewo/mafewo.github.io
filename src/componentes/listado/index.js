@@ -5,8 +5,7 @@ export default class Listado extends Component {
 
   render() {
     return (
-      <div className="container-fluid">
-        <div className="media-list">
+	<div id="pictures-container" className="col s12 m10 offset-m1 l6 offset-l3">
           {
             this.props.listado.map((listado) => {
               return <Item key={ listado.id }
@@ -15,7 +14,6 @@ export default class Listado extends Component {
                                   descripcion={ listado.descripcion } />
             })
           }
-        </div>
       </div>
     )
   }
