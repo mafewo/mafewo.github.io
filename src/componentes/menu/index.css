@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+nav{
+  background: rgba(203,96,179,1);
+background: -moz-linear-gradient(left, rgba(203,96,179,1) 0%, rgba(185,70,191,1) 9%, rgba(119,70,191,1) 19%, rgba(70,191,185,1) 29%, rgba(70,191,137,1) 39%, rgba(0,166,11,1) 49%, rgba(89,166,0,1) 59%, rgba(161,176,67,1) 70%, rgba(166,133,0,1) 80%, rgba(166,91,0,1) 90%, rgba(217,92,54,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(203,96,179,1)), color-stop(9%, rgba(185,70,191,1)), color-stop(19%, rgba(119,70,191,1)), color-stop(29%, rgba(70,191,185,1)), color-stop(39%, rgba(70,191,137,1)), color-stop(49%, rgba(0,166,11,1)), color-stop(59%, rgba(89,166,0,1)), color-stop(70%, rgba(161,176,67,1)), color-stop(80%, rgba(166,133,0,1)), color-stop(90%, rgba(166,91,0,1)), color-stop(100%, rgba(217,92,54,1)));
+background: -webkit-linear-gradient(left, rgba(203,96,179,1) 0%, rgba(185,70,191,1) 9%, rgba(119,70,191,1) 19%, rgba(70,191,185,1) 29%, rgba(70,191,137,1) 39%, rgba(0,166,11,1) 49%, rgba(89,166,0,1) 59%, rgba(161,176,67,1) 70%, rgba(166,133,0,1) 80%, rgba(166,91,0,1) 90%, rgba(217,92,54,1) 100%);
+background: -o-linear-gradient(left, rgba(203,96,179,1) 0%, rgba(185,70,191,1) 9%, rgba(119,70,191,1) 19%, rgba(70,191,185,1) 29%, rgba(70,191,137,1) 39%, rgba(0,166,11,1) 49%, rgba(89,166,0,1) 59%, rgba(161,176,67,1) 70%, rgba(166,133,0,1) 80%, rgba(166,91,0,1) 90%, rgba(217,92,54,1) 100%);
+background: -ms-linear-gradient(left, rgba(203,96,179,1) 0%, rgba(185,70,191,1) 9%, rgba(119,70,191,1) 19%, rgba(70,191,185,1) 29%, rgba(70,191,137,1) 39%, rgba(0,166,11,1) 49%, rgba(89,166,0,1) 59%, rgba(161,176,67,1) 70%, rgba(166,133,0,1) 80%, rgba(166,91,0,1) 90%, rgba(217,92,54,1) 100%);
+background: linear-gradient(to right, rgba(203,96,179,1) 0%, rgba(185,70,191,1) 9%, rgba(119,70,191,1) 19%, rgba(70,191,185,1) 29%, rgba(70,191,137,1) 39%, rgba(0,166,11,1) 49%, rgba(89,166,0,1) 59%, rgba(161,176,67,1) 70%, rgba(166,133,0,1) 80%, rgba(166,91,0,1) 90%, rgba(217,92,54,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#d95c36', GradientType=1 );
+}
