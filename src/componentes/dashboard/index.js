@@ -22,7 +22,20 @@ export default class Dashboard extends Component {
           <Listado listado={this.state.listado} />
       )
     } else {
-      return <p className="text-center">Cargando imagenes...</p>
+      return (  
+        <div className="col s12 m10 offset-m1 l6 offset-l3 center">
+          <div className="preloader-wrapper small active">
+            <div className="spinner-layer spinner-green-only">
+              <div className="circle-clipper left">
+                <div className="circle"></div>
+              </div><div className="gap-patch">
+                <div className="circle"></div>
+              </div><div className="circle-clipper right">
+                <div className="circle"></div>
+              </div>
+            </div>
+          </div>
+        </div>)
     }
   }
 }
